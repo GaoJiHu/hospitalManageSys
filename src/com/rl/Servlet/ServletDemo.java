@@ -27,7 +27,7 @@ public class ServletDemo extends javax.servlet.http.HttpServlet {
         String cookie = req.getHeader("cookie");
         System.out.println(cookie);
         System.out.println(req.getParameter("name"));
-        System.out.println(req.getParameter("age"));
+//        System.out.println(req.getParameter());
     }
 
     /*  protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
